@@ -1,0 +1,151 @@
+*{padding: 0; margin: 0;}
+
+body{
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#page{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid #999;
+}
+
+#header{width: 960px;}
+#header #logo{
+	height: 200px;
+}
+#header #logo  a img{
+	margin-top: 0px;
+	float: left;
+	width: 230px;
+}
+#header #logo img{
+	border-style: none;
+	border-width: medium;
+	float:right;
+}
+
+#menung{
+	width: 940px;
+	height: 35px;
+	line-height: 35px; /*chieu cao gia cac dong*/
+	padding-left: 20px;
+	color: #FFF;
+	background: url(23.jpg);
+	border-top: 5px solid #F66D05;
+}
+
+#menung ul{
+	font-size:12px;
+	font-weight: bold;
+	list-style: none;
+}
+
+#menung ul li{
+	float: left;
+}
+
+#menung ul li a{
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0px 15px;
+	cursor: pointer;
+}
+#menung ul li a:hover{
+	color: #FAFAFA;
+}
+
+#main{
+
+	padding:10px 0px;
+	background:#FAFAFA;
+}
+#left{
+
+	float:left;
+	width: 200px;
+	min-height: 600px;
+}
+#right{
+
+	float:right;
+	width: 200px;
+	min-height: 600px;
+}
+#content{
+	float:left;
+	width: 530px;
+	padding:10px;
+	min-height: 600px;
+}
+#left{
+	font-weight: bold;
+	font-size: 14px;
+}
+#left ull{
+	list-style: none;
+}
+#left ul li a{
+	display: block;
+	padding-left: 22px;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 2px solid #FFF;
+}
+#left ul li a span{
+	font-weight: normal;
+	color:#666;
+}
+#menud a{
+	height: 30px;
+	line-height: 30px;
+	background:url(23.jpg) no-repeat  10px 15px #EEE ;
+}
+#menud ul a:hover{
+	background: #CCFF33;
+}
+#leff div{
+	margin-bottom: 20px;
+}
+#left img{
+	float: right;
+	border:none;
+}
+#left p{
+	font-weight: bold;
+	padding-left: 25px;
+	line-height: 36px;
+	color:#000;
+	background: url(23.jpg) no-repeat;
+}
+#content {
+	border: 1px solid #999;
+}
+.myBox{
+	width: 240px;
+	height: 150px;
+	display: block;
+	padding:5px;
+	margin: 5px;
+	text-align: left;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.name a{
+	text-decoration: none;
+}
+#footer{
+
+	color: #fff;
+	width: 100%;
+	background: #666;
+	overflow: hidden; /*Thuộc tính overflow xác định điều gì sẽ xảy ra nếu một thành phần box tràn nội dung.*/
+	border-top: 5px solid #F66D05;
+}
+#footer p{
+	float:left;
+	padding: 20px 40px;
+	width: 351px;
+}
